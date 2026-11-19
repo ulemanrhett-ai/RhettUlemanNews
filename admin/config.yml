@@ -2,7 +2,7 @@
 # GitHub OAuth requires a separate OAuth provider; see SETUP.md.
 backend:
   name: github
-  repo: ulemanrhett-ai/RhettUlemanNews.com
+  repo: ulemanrhett-ai/RhettUlemanNews
   branch: main
   # base_url: https://YOUR-OAUTH-PROVIDER.example
   # auth_endpoint: auth
