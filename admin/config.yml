@@ -1,0 +1,81 @@
+# Set YOUR_GITHUB_USERNAME and YOUR_GITHUB_REPOSITORY before opening /admin.
+# GitHub OAuth requires a separate OAuth provider; see SETUP.md.
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_GITHUB_REPOSITORY
+  branch: main
+  # base_url: https://YOUR-OAUTH-PROVIDER.example
+  # auth_endpoint: auth
+
+media_folder: "images"
+public_folder: "/images"
+site_url: https://RhettUlemanNews.com
+display_url: https://RhettUlemanNews.com
+publish: true
+
+collections:
+  - name: portfolio
+    label: Portfolio Dashboard
+    files:
+      - name: homepage
+        label: Edit My Website
+        file: content/site.json
+        format: json
+        fields:
+          - {label: Your Name, name: name, widget: string}
+          - {label: Professional Title, name: role, widget: string}
+          - {label: Homepage Introduction, name: introduction, widget: text}
+          - label: Four Homepage Photos
+            name: heroImages
+            widget: list
+            min: 4
+            max: 4
+            summary: "Photo {{index}}"
+            field: {label: Photo, name: image, widget: image, required: false}
+          - label: Photo Crop Positions
+            name: heroPositions
+            widget: list
+            min: 4
+            max: 4
+            field: {label: CSS Position (e.g. center 30%), name: position, widget: string}
+          - label: Latest Demo Reel
+            name: latestReel
+            widget: object
+            fields:
+              - {label: YouTube / Vimeo Link or MP4 Path, name: video, widget: string, required: false}
+              - {label: Caption, name: caption, widget: text, required: false}
+          - label: Earlier Demo Reel
+            name: earlierReel
+            widget: object
+            fields:
+              - {label: YouTube / Vimeo Link or MP4 Path, name: video, widget: string, required: false}
+              - {label: Caption, name: caption, widget: text, required: false}
+          - {label: About Me, name: about, widget: text}
+          - {label: Headshot, name: portrait, widget: image, required: false}
+          - {label: Contact Email, name: email, widget: string, required: false}
+          - {label: Resume PDF, name: resume, widget: file, required: false}
+          - label: Social Links
+            name: socials
+            widget: list
+            fields:
+              - {label: Platform, name: label, widget: string}
+              - {label: Link, name: url, widget: string, required: false}
+          - label: Skills
+            name: skills
+            widget: list
+            field: {label: Skill, name: skill, widget: string}
+          - label: Stories & Projects
+            name: stories
+            widget: list
+            summary: "{{fields.title}} — {{fields.category}}"
+            fields:
+              - {label: Story Title, name: title, widget: string}
+              - label: Portfolio Section
+                name: category
+                widget: select
+                options: [Broadcast, Live Shots & Anchoring, Writing, Social Media Strategy]
+              - {label: Story Type / Date, name: date, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false}
+              - {label: Thumbnail, name: image, widget: image, required: false}
+              - {label: Published Story / Video Link, name: url, widget: string, required: false}
+              - {label: Video Link (YouTube or Vimeo), name: embed, widget: string, required: false}

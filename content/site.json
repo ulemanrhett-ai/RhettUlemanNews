@@ -1,0 +1,52 @@
+{
+  "name": "Rhett Uleman",
+  "role": "Multimedia Journalist · Reporter · Storyteller",
+  "introduction": "Broadcast journalist. Multimedia storyteller. Reporting stories that matter, on camera and beyond.",
+  "heroImages": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "heroPositions": [
+    "center center",
+    "center 30%",
+    "center center",
+    "center 35%"
+  ],
+  "latestReel": {
+    "video": "",
+    "caption": "My most recent reporting and anchoring highlights"
+  },
+  "earlierReel": {
+    "video": "",
+    "caption": "An earlier collection of my broadcast work"
+  },
+  "about": "I'm Rhett, a multimedia journalist passionate about finding the human side of the headlines. From on-camera reporting to editing and producing, I believe the best journalism makes complex issues accessible and gives communities a voice.",
+  "portrait": "",
+  "email": "",
+  "resume": "",
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "url": ""
+    },
+    {
+      "label": "YouTube",
+      "url": ""
+    },
+    {
+      "label": "Instagram",
+      "url": ""
+    }
+  ],
+  "skills": [
+    "On-camera reporting",
+    "Video production",
+    "Interviewing",
+    "Writing",
+    "Editing",
+    "Photography"
+  ],
+  "stories": []
+}
