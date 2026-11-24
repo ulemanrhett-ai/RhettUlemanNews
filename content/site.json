@@ -15,29 +15,25 @@
     "center 35%"
   ],
   "latestReel": {
-    "video": "",
+    "video": "https://www.youtube.com/watch?v=-jMzENVZ-rI",
     "caption": "My most recent reporting and anchoring highlights"
   },
   "earlierReel": {
     "video": "https://www.youtube.com/watch?v=QwOu7Cf9r7k",
     "caption": "An earlier collection of my broadcast work"
   },
-  "about": "I'm Rhett, a multimedia journalist passionate about finding the human side of the headlines. From on-camera reporting to editing and producing, I believe the best journalism makes complex issues accessible and gives communities a voice.",
-  "portrait": "",
-  "email": "",
+  "about": "I'm Rhett, a news-focused multimedia journalist from the Omaha metro area, passionate about finding the human side of the headlines. From on-camera reporting to editing and producing, I believe the best journalism makes complex issues accessible and gives communities a voice.",
+  "portrait": "/images/070a1254.jpg",
+  "email": "ulemanrhett@gmail.com",
   "resume": "",
   "socials": [
     {
       "label": "LinkedIn",
-      "url": ""
-    },
-    {
-      "label": "YouTube",
-      "url": ""
+      "url": "https://www.linkedin.com/in/rhett-uleman-2a8a16324/"
     },
     {
       "label": "Instagram",
-      "url": ""
+      "url": "https://www.instagram.com/rhett_uleman_/"
     }
   ],
   "skills": [
