@@ -44,5 +44,14 @@
     "Editing",
     "Photography"
   ],
-  "stories": []
+  "stories": [
+    {
+      "url": "https://www.unothegateway.com/news/the-cycle-of-tragedy-experts-explain-how-gaps-in-mental-health-care-can-lead-to/article_a2152301-3803-4f6f-acec-d72d62d5c2fc.html",
+      "image": "/images/69fa6fd030a6c.image.webp",
+      "title": "The cycle of tragedy: Experts explain how gaps in mental health care can lead to crisis after fatal incident at Walmart near UNO",
+      "category": "Writing",
+      "date": "The Gateway News Article - 05.07.26",
+      "description": "After a kidnapping which turned into a fatal shooting on a spring Tuesday morning at a Walmart Supermarket minutes away from UNO campus buildings, a single frame from the bodycam of the Omaha Police Officer who shot 31-year-old Noemi Guzman went viral on the internet. The image showed the officer pointing his handgun at Guzman, who was swinging a stolen kitchen knife at a three-year-old boy whom she was holding hostage in a shopping cart. Further investigation into the incident turned up evidence that long before Guzman ended up on the wrong end of a gun, she had years of experience cycling through state criminal justice and mental health support systems that proved themselves to be inept. In this investigative piece I wrote in my Junior year as a News Writer for The Gateway, the greater systemic issues surrounding Nebraska's mental health services and lack of support for patients and families is the subject of my scrutiny. "
+    }
+  ]
 }
